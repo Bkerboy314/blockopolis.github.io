@@ -1,4 +1,4 @@
-#a thing to setup snail ide on gh codespaces
+#a thing to setup blockopolis on gh codespaces
 npm i -g pnpm
 pnpm up
 pnpm i --shamefully-hoist
