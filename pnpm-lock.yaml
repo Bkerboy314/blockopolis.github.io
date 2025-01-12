@@ -12,8 +12,8 @@ importers:
         specifier: ^3.1001.202405101234
         version: 3.1001.202405101234
       PenguinMod-MarkDown:
-        specifier: github:PenguinMod/PenguinMod-MarkDown#master
-        version: md@https://codeload.github.com/PenguinMod/PenguinMod-MarkDown/tar.gz/ae5971c234a9d13a8886bb3edcec3df5ceffab34
+        specifier: https://github.com/BlockopolisCoding/Blockopolis-MarkDown#master
+        version: md@https://codeload.github.com/PenguinMod/BlockopolisCoding/Blockopolis-MarkDown/tar.gz/ae5971c234a9d13a8886bb3edcec3df5ceffab34
       arraybuffer-loader:
         specifier: ^1.0.8
         version: 1.0.8
@@ -168,32 +168,32 @@ importers:
         specifier: 0.1.1
         version: 0.1.1
       scratch-audio:
-        specifier: github:PenguinMod/PenguinMod-Audio#develop
-        version: https://codeload.github.com/PenguinMod/PenguinMod-Audio/tar.gz/0a3f4d98866e5d92fd459d94e5d5c8490de0e66f
+        specifier: github:BlockopolisCoding/Blockopolis-Audio#develop
+        version: https://codeload.github.com/BlockopolisCoding/Blockopolis-Audio/tar.gz/0a3f4d98866e5d92fd459d94e5d5c8490de0e66f
       scratch-blocks:
-        specifier: github:Snail-IDE/snail-blocks#develop-builds
-        version: https://codeload.github.com/Snail-IDE/snail-blocks/tar.gz/9ffbc6d3c4214e28c29c0e9b57a05a2157c0ca7c
+        specifier: github:BlockopolisCoding/blockopolis-blocks#develop-builds
+        version: https://codeload.github.com/BlockopolisCoding/blockopolis-blocks/tar.gz/9ffbc6d3c4214e28c29c0e9b57a05a2157c0ca7c
       scratch-paint:
-        specifier: github:Snail-IDE/Snail-IDE-Paint#develop
-        version: https://codeload.github.com/Snail-IDE/Snail-IDE-Paint/tar.gz/599415de44e212ccb4753e22310c12a2cb104272(react-dom@16.14.0(react@16.14.0))(react-intl-redux@0.7.0(react-intl@2.9.0(prop-types@15.8.1)(react@16.14.0))(react-redux@5.0.7(react@16.14.0)(redux@3.7.2)))(react-intl@2.9.0(prop-types@15.8.1)(react@16.14.0))(react-popover@0.5.10)(react-redux@5.0.7(react@16.14.0)(redux@3.7.2))(react-responsive@4.1.0(react@16.14.0))(react-style-proptype@3.2.2)(react-tooltip@3.8.0(react-dom@16.14.0(react@16.14.0))(react@16.14.0))(react@16.14.0)(redux@3.7.2)(scratch-render-fonts@1.0.0-prerelease.20210401210003)
+        specifier: github:github.com/BlockopolisCoding/Blockopolis-Paint#develop
+        version: https://codeload.github.com/BlockopolisCoding/Blockopolis-Paint/tar.gz/599415de44e212ccb4753e22310c12a2cb104272(react-dom@16.14.0(react@16.14.0))(react-intl-redux@0.7.0(react-intl@2.9.0(prop-types@15.8.1)(react@16.14.0))(react-redux@5.0.7(react@16.14.0)(redux@3.7.2)))(react-intl@2.9.0(prop-types@15.8.1)(react@16.14.0))(react-popover@0.5.10)(react-redux@5.0.7(react@16.14.0)(redux@3.7.2))(react-responsive@4.1.0(react@16.14.0))(react-style-proptype@3.2.2)(react-tooltip@3.8.0(react-dom@16.14.0(react@16.14.0))(react@16.14.0))(react@16.14.0)(redux@3.7.2)(scratch-render-fonts@1.0.0-prerelease.20210401210003)
       scratch-render:
-        specifier: github:Snail-IDE/Snail-IDE-Render#develop
-        version: https://codeload.github.com/Snail-IDE/Snail-IDE-Render/tar.gz/60c143757cbdd252e3e52e52dc79af30a1895c28(scratch-render-fonts@1.0.0-prerelease.20210401210003)
+        specifier: github:BlockopolisCoding/Blockopolis-Render#develop
+        version: https://codeload.github.com/BlockopolisCoding/Blockopolis-Render/tar.gz/60c143757cbdd252e3e52e52dc79af30a1895c28(scratch-render-fonts@1.0.0-prerelease.20210401210003)
       scratch-render-fonts:
         specifier: 1.0.0-prerelease.20210401210003
         version: 1.0.0-prerelease.20210401210003
       scratch-storage:
-        specifier: github:PenguinMod/PenguinMod-Storage#develop
-        version: https://codeload.github.com/PenguinMod/PenguinMod-Storage/tar.gz/96f45f701dc11648bc88fcc5307193d591afea84(webpack@4.46.0(webpack-cli@3.3.12))
+        specifier: github:BlockopolisCoding/Blockopolis-Storage#develop
+        version: https://codeload.github.com/BlockopolisCoding/Blockopolis-Storage/tar.gz/96f45f701dc11648bc88fcc5307193d591afea84(webpack@4.46.0(webpack-cli@3.3.12))
       scratch-svg-renderer:
-        specifier: github:TurboWarp/scratch-svg-renderer#develop
-        version: '@turbowarp/scratch-svg-renderer@https://codeload.github.com/TurboWarp/scratch-svg-renderer/tar.gz/c4bb764de945bff976185b3800dcff6193d2efed(scratch-render-fonts@1.0.0-prerelease.20210401210003)'
+        specifier: github:BlockopolisCoding/blockopolis-svg-renderer#develop
+        version: '@BlockopolisCoding/blockopolis-svg-renderer@https://codeload.github.com/BlockopolisCoding/blockopolis-svg-renderer/tar.gz/c4bb764de945bff976185b3800dcff6193d2efed(scratch-render-fonts@1.0.0-prerelease.20210401210003)'
       scratch-translate-extension-languages:
         specifier: ^1.0.6
         version: 1.0.6
       scratch-vm:
-        specifier: github:Snail-IDE/Snail-IDE-Vm#develop
-        version: https://codeload.github.com/Snail-IDE/Snail-IDE-Vm/tar.gz/fdfa8cc8f36d5e679c64be0d39e8c8bb223f8c43(@tensorflow/tfjs-converter@1.7.4(@tensorflow/tfjs-core@1.7.4))(@tensorflow/tfjs-core@1.7.4)(@turbowarp/scratch-svg-renderer@https://codeload.github.com/TurboWarp/scratch-svg-renderer/tar.gz/c4bb764de945bff976185b3800dcff6193d2efed(scratch-render-fonts@1.0.0-prerelease.20210401210003))(seedrandom@2.4.4)(webpack@4.46.0(webpack-cli@3.3.12))
+        specifier: github:BlockopolisCoding/Blockopolis-Vm#develop
+        version: https://codeload.github.com/BlockopolisCoding/Blockopolis-Vm/tar.gz/fdfa8cc8f36d5e679c64be0d39e8c8bb223f8c43(@tensorflow/tfjs-converter@1.7.4(@tensorflow/tfjs-core@1.7.4))(@tensorflow/tfjs-core@1.7.4)(@turbowarp/scratch-svg-renderer@https://codeload.github.com/TurboWarp/scratch-svg-renderer/tar.gz/c4bb764de945bff976185b3800dcff6193d2efed(scratch-render-fonts@1.0.0-prerelease.20210401210003))(seedrandom@2.4.4)(webpack@4.46.0(webpack-cli@3.3.12))
       startaudiocontext:
         specifier: 1.2.1
         version: 1.2.1
