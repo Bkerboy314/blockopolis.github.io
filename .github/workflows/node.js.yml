@@ -31,8 +31,8 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v4
       with:
+        name: my-artifact-${{ github.run_id }}
         path: ./build/
-
   deploy:
     environment:
       name: github-pages
