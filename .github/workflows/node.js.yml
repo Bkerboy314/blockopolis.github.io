@@ -1,6 +1,7 @@
-workflow_dispatch:
-repository_dispatch:
-push:
+on:
+  workflow_dispatch:
+  repository_dispatch:
+  push:
 
 permissions:
   contents: read
