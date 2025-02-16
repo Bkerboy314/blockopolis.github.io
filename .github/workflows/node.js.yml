@@ -1,7 +1,6 @@
-on:
-  workflow_dispatch:
-  repository_dispatch:
-  push:
+workflow_dispatch:
+repository_dispatch:
+push:
 
 permissions:
   contents: read
@@ -29,7 +28,7 @@ jobs:
     - name: Install dependencies and build site
       run: npm i -g pnpm@7 && pnpm up && pnpm i --shamefully-hoist && webpack --bail
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v4
       with:
         path: ./build/
 
